@@ -1,0 +1,44 @@
+/* Style containers for available and selected posts */
+.rssfeedticker-posts-selector {
+    display: flex;
+    gap: 20px;
+}
+
+.rssfeedticker-posts-selector h4 {
+    margin-top: 0;
+}
+
+.rssfeedticker-all-posts, .rssfeedticker-selected-posts {
+    width: 45%;
+}
+
+.rssfeedticker-sortable {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    min-height: 100px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    padding: 10px;
+}
+
+.rssfeedticker-sortable li {
+    padding: 8px;
+    margin: 5px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    cursor: move;
+}
+
+/* Placeholder style during drag */
+.sortable-placeholder {
+    background-color: #f0f0f0;
+    border: 1px dashed #ddd;
+    height: 40px;
+    margin: 5px 0;
+}
+
+/* Cursor for sortable items */
+.rssfeedticker-sortable li {
+    cursor: move;
+}

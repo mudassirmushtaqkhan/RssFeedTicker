@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setInterval(nextItem, speed);
 });
 
-// setting display content
+// setting display c
 
 // marquuee effect 
 
